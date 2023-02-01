@@ -1,0 +1,52 @@
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.new__todo{
+  text-align: center;
+  margin: 10px auto 30px auto;
+  flex-direction: column;
+  border: 1px solid #000;
+  max-width: 400px;
+  input, textarea{
+    display: block;
+    max-width: 300px;
+    width: 100%;
+    margin: 10px auto;
+    padding: 5px;
+  }
+  textarea{
+    resize: none;
+    height: 100px;
+  }
+  .filter{
+    width: auto;
+    display: inline-block;
+  }
+}
+
+.filters{
+  display: flex;
+  justify-content: space-around;
+  line-height: 2;
+}
+
+.task_list{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.task_item{
+  width: 300px;
+  margin: 0 auto;
+  padding: 15px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.title{
+  font-size: 20px;
+  font-weight: 800;
+}
