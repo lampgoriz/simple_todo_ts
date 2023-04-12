@@ -75,5 +75,5 @@ const todoSlice = createSlice({
 
 export const {addTask, deleteTask, activateTask, deactivateTask,
    completeTask, toggleCompleted, toggleActive, toggleAll} = todoSlice.actions
-export default todoSlice.reducer;
+ export default todoSlice.reducer;
 
